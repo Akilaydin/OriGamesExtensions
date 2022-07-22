@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LogBreaker.Utils.Base
+namespace OriGames.Extensions.Disposable
 {
     public abstract class Disposable : IDisposable
     {

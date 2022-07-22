@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace LogBreaker.Utils.Extensions
+namespace OriGames.Extensions.CollectionExtensions
 {
     public static class CommonExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace LogBreaker.Utils.Base
+namespace OriGames.Extensions.Disposable
 {
     public abstract class DisposableWithCts : Disposable
     {

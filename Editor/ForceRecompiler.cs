@@ -2,7 +2,7 @@
 
 using UnityEditor;
 
-namespace LogBreaker.Utils
+namespace OriGames.EditorExtensions
 {
 	public class ForceRecompiler : ScriptableWizard
 	{

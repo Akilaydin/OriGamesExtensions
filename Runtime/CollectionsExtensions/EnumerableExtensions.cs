@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace OriGames.Extensions
+namespace OriGames.Extensions.CollectionExtensions
 {
 	public static class EnumerableExtensions
 	{
