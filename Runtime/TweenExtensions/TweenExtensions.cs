@@ -6,7 +6,7 @@ using DG.Tweening;
 
 using UnityEngine;
 
-namespace LogBreaker.Utils.Extensions
+namespace OriGames.Extensions.TweenExtensions
 {
 	public static class TweenExtensions
 	{
