@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 
 using UnityEngine;
+using UnityEngine.Assertions;
 
 namespace OriGames.Extensions.CollectionExtensions
 {
@@ -24,6 +25,11 @@ namespace OriGames.Extensions.CollectionExtensions
             sourceList.Remove(randomElement);
 
             return randomElement;
+        }
+
+        public static void RemoveWithAssertion<T>(this List<T> sourceList, T item)
+        {
+            Assert.IsTrue(sourceList.Remove(item), $"Error while removing item: {sourceList.ToString()} doesn't contain {item.ToString()}");
         }
     }
 }
