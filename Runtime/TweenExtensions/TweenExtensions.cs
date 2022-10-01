@@ -12,7 +12,7 @@ namespace OriGames.Extensions.TweenExtensions
 	{
 		public static UniTask AwaitForCompleteWithKilling(this Tween tween, CancellationToken cancellationToken)
 		{
-			CancellationTokenRegistration registration;
+			CancellationTokenRegistration registration = default;
 			
 			registration = cancellationToken.Register(() =>
 			{
